@@ -1,0 +1,37 @@
+body {
+    background-image: url(zebra.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    /* background-color: darkslateblue;
+    background: linear-gradient(to right, #00ccff, #b3f0ff);
+    box-shadow: 3px 5px 3px black; */
+}
+
+h1 {
+    color: #ffffff;
+    text-shadow: 2px 2px 5px black;
+}
+
+h2 {
+    color: rgb(250, 104, 205);
+    text-shadow: 1px 1px 3px darkblue;
+}
+
+.borderImg {
+    /* border: 2px solid red; */
+    /* border-right: 10px solid red; */
+    /* border-right: 10px dotted red; */
+    border-right: 10px dashed red;
+}
+
+ul li {
+    color: white;
+    font-size: 20px;
+}
+
+ul>li {
+    color: yellow;
+}
