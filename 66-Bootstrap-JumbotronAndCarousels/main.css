@@ -1,0 +1,23 @@
+.jumbotron {
+    text-align: center;
+    background: none;
+}
+
+.carousel {
+    width:640px;
+    height:360px;
+  }
+
+  .sectionLight {
+    background-color: #eceeef;
+  }
+
+
+  @media screen and (max-width: 767px) {
+    /* // 如果使用者之視窗寬度 <= 768px，將會再載入這裡的 CSS。 */
+    .carousel {
+        width:100%;
+        padding-right: 15px;
+        padding-left: 15px;
+      }
+  }
